@@ -5,13 +5,12 @@ import './App.css'
 import { ChakraProvider } from '@chakra-ui/react'
 import image from "./assets/site-background.png"; 
 import MediaQuery from 'react-responsive'
-import theme from './theme'
 
 
 const App = () => {
   return (
     <>
-    <ChakraProvider theme={theme}>
+    <ChakraProvider>
     <div className='App' >
       <div>
         <Navbar />
