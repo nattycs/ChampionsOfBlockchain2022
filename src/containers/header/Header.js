@@ -6,6 +6,7 @@ import { Button } from '@material-ui/core'
 import image from "../../assets/site-background.png"; 
 import { SocialIcon } from 'react-social-icons';
 
+
 const Header = () => (
   <div className="gpt3__header section__padding" id="home" style={{ backgroundImage:`url(${image})` }}>
     <div className="gpt3__header-content">
