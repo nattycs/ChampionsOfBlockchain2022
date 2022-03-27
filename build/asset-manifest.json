@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c88b2103.css",
+    "main.js": "/static/js/main.aab92d9e.js",
+    "static/media/cofblogo.png": "/static/media/cofblogo.a31722f165d7d2b5c119.png",
+    "static/media/yellow-champions.png": "/static/media/yellow-champions.338570c4df942eaadcc7.png",
+    "static/media/champions-3.png": "/static/media/champions-3.6c653e63ea87c24c86ab.png",
+    "static/media/kclbc.png": "/static/media/kclbc.d00d5d9e2102047e262f.png",
+    "static/media/site-background.png": "/static/media/site-background.124595f8eccd1becd259.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/gold.png": "/static/media/gold.fbf3666a80fd14a343aa.png",
+    "static/media/silver.png": "/static/media/silver.91cbad349a9e0ffb706c.png",
+    "static/media/bronze.png": "/static/media/bronze.252137e6d1585af742dc.png",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.c88b2103.css.map": "/static/css/main.c88b2103.css.map",
+    "main.aab92d9e.js.map": "/static/js/main.aab92d9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c88b2103.css",
+    "static/js/main.aab92d9e.js"
+  ]
+}

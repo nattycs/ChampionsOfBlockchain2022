@@ -1,0 +1,66 @@
+.cofb__agenda {
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 55px;
+    color: #ffcd2a;
+    letter-spacing: -0.04em;
+    margin-top: 0.5rem;
+    
+    display: block; /* This will put the pseudo element on its own line. */
+    margin:auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid white; /* This creates the border. Replace black with whatever color you want. */
+
+    display: flex;
+}
+
+.cofb__agenda-content h1{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+    color: #ffcd2a;
+    display:block;
+    box-sizing: border-box;
+    padding:2rem 2rem;
+
+    display: block; /* This will put the pseudo element on its own line. */
+    margin:auto; /* This will center the border. */
+    width: 70%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+ 
+
+    margin-top: 12px;
+
+}
+
+.cofb__agenda-content p {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    padding:40px;
+    display:block;
+    box-sizing: border-box;
+    text-align: center;
+
+    display: block; /* This will put the pseudo element on its own line. */
+    margin:auto; /* This will center the border. */
+    width: 70%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+ 
+
+    margin-top: 12px;
+}
+
+.cofb__agenda-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: black;
+}

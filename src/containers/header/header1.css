@@ -1,0 +1,68 @@
+.cofb2022__book-now button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    margin: 10px auto 0;
+    background: #ffcd2a;
+    color: black;
+    font-size: 16px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.cofb2022__header {
+    display: flex;
+}
+
+.cofb2022__header-content {
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction:column;
+
+    margin-right: 5rem;
+}
+
+.cofb2022__header-content img {
+    width: 100%;
+}
+
+.cofb2022__header-content h2{
+    font-family: var(--font-family);
+    font-weight:800;
+    font-size: 32px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.cofb2022__right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .cofb2022__header {
+        flex-direction: column;
+    }
+
+    .cofb2022__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .cofb2022__header h2{
+        font-size: 16px;
+        line-height:24px;
+        flex-wrap: wrap;
+    }
+}

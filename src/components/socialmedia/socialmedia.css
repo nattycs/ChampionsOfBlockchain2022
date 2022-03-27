@@ -1,0 +1,29 @@
+.gpt3__brand-section__padding {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gpt3__brand-section__padding div {
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cofb__follow {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    color: black;
+
+    margin-top: 1.5rem;
+    margin-right: 0.5rem;
+}
