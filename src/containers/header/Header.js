@@ -9,7 +9,7 @@ import { SocialIcon } from 'react-social-icons';
 
 const Header = () => (
   <div className="gpt3__header section__padding" id="home" style={{ backgroundImage:`url(${image})` }}>
-    <div className="gpt3__header-content">
+    <div className="gpt3__header-content Manrope">
       <h1 >CHAMPIONS OF BLOCKCHAIN <br /> <h2>GLOBAL TRANSFORMATION </h2></h1>
       <h3> 7 - 8 APRIL 2022 </h3>
         <p>
@@ -27,8 +27,8 @@ const Header = () => (
                 backgroundColor: "#ffcd2a",
                 padding: "14px 28px",
                 fontSize:"18px",
-                fontFamily: "Noir",
-                fontWeight:'400',
+                fontFamily: 'Manrope',
+                fontWeight:'600',
             }}
             _hover={{textDecoration:'none'}} 
             variant="contained"

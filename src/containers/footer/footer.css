@@ -76,7 +76,7 @@
 
 .cofb__email {
     font-family: var(--font-family);
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: white;
@@ -87,7 +87,7 @@
 
 .cofb__email a{
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
     line-height: 28px;
     color: white;
@@ -143,7 +143,7 @@
 
 .gpt3__footer-copyright p {
     font-size: 12px;
-    font-family: var(--font-family);
+    font-family: 'Manrope';
     line-height: 15px;
     color: #fff;
 }

@@ -41,8 +41,8 @@
 .gpt3__navbar-sign p,
 .gpt3__navbar-menu_container p {
     color: #3b537a;
-    font-family: var(--font-family);
-    font-weight: 500;
+    font-family: 'Manrope';
+    font-weight: 800;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
@@ -56,7 +56,7 @@
     padding: 0.5rem 1rem;
     color: #fff;
     background: #FF4820;
-    font-family: var(--font-family);
+    font-family: 'Manrope';
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;

@@ -21,22 +21,22 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="gpt3__navbar">
-      <div className="gpt3__navbar-links">
+    <div className="gpt3__navbar Manrope">
+      <div className="gpt3__navbar-links Manrope">
         <div className="gpt3__navbar-links_logo">
           <img src={logo} />
         </div>
-        <div className="gpt3__navbar-links_container">
+        <div className="gpt3__navbar-links_container Manrope">
           <Menu />
         </div>
       </div>
-      <div className="gpt3__navbar-menu">
+      <div className="gpt3__navbar-menu Manrope">
         {toggleMenu
           ? <RiCloseLine color="#3b537a" size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color="#3b537a" size={27} onClick={() => setToggleMenu(true)} />}
         {toggleMenu && (
-        <div className="gpt3__navbar-menu_container scale-up-center">
-          <div className="gpt3__navbar-menu_container-links">
+        <div className="gpt3__navbar-menu_container scale-up-center Manrope">
+          <div className="gpt3__navbar-menu_container-links Manrope">
             <Menu />
           </div>
         </div>

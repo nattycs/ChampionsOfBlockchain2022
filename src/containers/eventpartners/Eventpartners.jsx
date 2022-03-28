@@ -10,14 +10,14 @@ import Carousel from 'react-multi-carousel';
 const Eventpartners = () => {
   return (
     <div className="cofb__eventpartners-page" id='eventpartners'>
-    <div className='cofb__eventpartners'>
+    <div className='cofb__eventpartners Manrope'>
     <h1>EVENT PARTNERS</h1>
     <Box textAlign="center" py={10} px={6}>
       <img src={yellow} />
-      <Heading color={'white'} as="h2" size="xl" fontFamily="Noir" fontWeight="200" mt={6} mb={2}>
+      <Heading color={'white'} as="h2" size="xl" fontFamily="Manrope" fontWeight="200" mt={6} mb={2}>
         COMING SOON
       </Heading>
-      <Text color={'white'} fontFamily="Noir">
+      <Text color={'white'} fontFamily="Manrope">
         Follow Our Socials To Keep Updated.
       </Text>
       <br />

@@ -12,10 +12,10 @@
 }
 
 .cofb__networking a{
-    font-family: var(--font-family);
+    font-family: 'Manrope';
     font-weight:400;
     font-size:30px;
-    padding:0rem;
+    padding:0.5rem;
     color:white;
 }
 

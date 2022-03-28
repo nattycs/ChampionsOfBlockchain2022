@@ -7,14 +7,14 @@ import { InfoIcon } from '@chakra-ui/icons';
 
 const Schedule = () => {
   return (
-    <div className='cofb__schedule' id='schedule'>
+    <div className='cofb__schedule Manrope' id='schedule'>
       <h1>SCHEDULE</h1>
     <Box textAlign="center" py={10} px={6}>
       <img src={champions} />
-      <Heading as="h2" size="xl" fontFamily="Noir" fontWeight="200" mt={6} mb={2}>
+      <Heading as="h2" size="xl" fontFamily="Manrope" fontWeight="200" mt={6} mb={2}>
         COMING SOON
       </Heading>
-      <Text color={'gray.500'} fontFamily="Noir">
+      <Text color={'gray.500'} fontFamily="Manrope">
         Follow Our Socials To Keep Updated.
       </Text>
       <br />

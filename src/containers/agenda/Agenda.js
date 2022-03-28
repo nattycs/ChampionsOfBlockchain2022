@@ -68,14 +68,14 @@ import {
           gap={4}>
           <GridItem colSpan={1}>
             <VStack alignItems="flex-start" spacing="20px">
-              <chakra.h2 color='#ffcd2a' fontSize="5xl" fontWeight="200" fontFamily={'Noir'}>
+              <chakra.h2 fontFamily={'Manrope'} color='#ffcd2a' fontSize="5xl" fontWeight="200">
                 Mission
               </chakra.h2>
             </VStack>
           </GridItem>
           <GridItem>
             <Flex>
-              <chakra.p fontFamily={'Noir'} fontSize="2xl" color="white">
+              <chakra.p fontFamily={'Manrope'} fontSize="2xl" color="white">
               1. To promote awareness and bring representation of Blockchain in higher education by coordinating a student led effort to broadcast the message of its significance. 
             <br />
             2. To show a diverse range of use cases with Blockchain technology and how it touches upon a wide range of areas we interact with in our daily lives from sustainability to the arts.

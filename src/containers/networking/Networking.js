@@ -42,16 +42,16 @@ import {Button} from '@material-ui/core'
   export default function BasicStatistics() {
     return (
         <div className='cofb__networking-page' id='tickets'>
-        <div className= 'cofb__networking'>
+        <div className= 'cofb__networking Manrope'>
         <h1>TICKETS</h1>
                 <Box maxW="7xl" mx={'auto'} pt={5} px={{ base: 2, sm: 12, md: 17 }}>
-                <SimpleGrid color={'white'} fontFamily='Noir' columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
-                <div className='cofb__networking-blocks'>
+                <SimpleGrid color={'white'} fontFamily='Manrope' columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
+                <div className='cofb__networking-blocks Manrope'>
                 <img src={bronze} width='150px'/>
                 <a>STUDENTS</a>
                 {/* <StatsCard title={'This event'} stat={'Is an opportunity to network with industry experts from a wide range of sectors in the Blockchain landscape and attend Q&As to have your questions addressed.'} /> */}
                 <Box w={'full'} borderRadius='10px' borderColor='white' borderWidth='1px' h={300}>
-                  <Text textAlign='center' fontWeight={'400'} fontSize={'28px'} p={5}>
+                  <Text fontFamily='Manrope' textAlign='center' fontWeight={'400'} fontSize={'28px'} p={5}>
                     - Access to conference
                   </Text>
                 </Box>
@@ -95,8 +95,8 @@ import {Button} from '@material-ui/core'
                 backgroundColor: "#ffcd2a",
                 padding: "14px 28px",
                 fontSize:"18px",
-                fontFamily: "Noir",
-                fontWeight:'400',
+                fontFamily: "Manrope",
+                fontWeight:'600',
                 color: 'black'
                 }} variant="contained"
                 href="https://hopin.com/events/champions-of-blockchain-global-transformation">BOOK NOW</Button>
