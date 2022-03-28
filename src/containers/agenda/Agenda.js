@@ -31,7 +31,7 @@ import {
   export default function gridListWithCTA() {
     return (
         <div className = 'cofb__agenda-page' id='agenda'>
-        <div className='cofb__agenda'>
+        <div className='cofb__agenda Manrope'>
             <h1>AGENDA</h1>
         </div>
       <Box as={Container} maxW="7xl" mt={14} p={4}>
@@ -44,14 +44,14 @@ import {
           gap={4}>
           <GridItem colSpan={1}>
             <VStack alignItems="flex-start" spacing="20px">
-              <chakra.h2 color='#ffcd2a' fontSize="5xl" fontWeight="200" fontFamily={'Noir'}>
+              <chakra.h2 color='#ffcd2a' fontSize="5xl" fontWeight="200" fontFamily={'Manrope'}>
                 Vision
               </chakra.h2>
             </VStack>
           </GridItem>
           <GridItem>
             <Flex>
-              <chakra.p fontFamily={'Noir'} fontSize="2xl" color="white">
+              <chakra.p fontFamily={'Manrope'} fontSize="2xl" color="white">
                 To highlight the vast industries in which Blockchain technology is transforming the way they function through reshaping and forming new ecosystems. 
                 Blockchain is not just a technology of the future that promises change, it is continuously reshaping the fabrics of society and we seek to illustrate this phenomenon as the key focal point of this conference.
               </chakra.p>
