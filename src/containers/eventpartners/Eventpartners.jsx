@@ -23,7 +23,7 @@ const Eventpartners = () => {
       <br />
     <div>
         <SocialIcon className='sm-icons' url="https://www.facebook.com/championsofblockchain" network="facebook" bgColor="#ffcd2a" />
-        <SocialIcon className='sm-icons' url="https://www.linkedin.com/events/championsofblockchain-globaldis6771465335553048577/" network="linkedin" bgColor="#ffcd2a" />
+        <SocialIcon className='sm-icons' url="https://www.linkedin.com/company/champions-of-blockchain" network="linkedin" bgColor="#ffcd2a" />
         <SocialIcon className='sm-icons' url="https://www.instagram.com/championsofblockchain/" network="instagram" bgColor="#ffcd2a" />
         <SocialIcon className='sm-icons' url="https://twitter.com/champsofblock" network="twitter" bgColor="#ffcd2a" />
     </div>

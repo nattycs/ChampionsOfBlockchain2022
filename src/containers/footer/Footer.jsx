@@ -8,7 +8,7 @@ const Footer = () => (
       <h1>Contact Us</h1>
     </div>
     <div className="cofb__email Manrope">
-    Questions? Email us at <a>championsofbockchain@gmail.com.</a>
+    Questions? Email us at <a>championsofblockchain@gmail.com.</a>
     </div>
 
     <div className="gpt3__footer-copyright Manrope">
