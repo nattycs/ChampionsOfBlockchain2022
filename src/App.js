@@ -7,7 +7,6 @@ import image from "./assets/site-background.png";
 import MediaQuery from 'react-responsive'
 
 
-
 const App = () => {
   return (
     <>
@@ -22,7 +21,6 @@ const App = () => {
       <Schedule />
       <Networking />
       <Sponsor />
-      <Eventpartners />
       <Footer />
     </div>
     </ChakraProvider>

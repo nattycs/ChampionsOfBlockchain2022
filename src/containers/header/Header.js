@@ -22,7 +22,7 @@ const Header = () => (
     </div>
 
     <div className="gpt3__header-image">
-            <Button style={{
+             <Button style={{
                 borderRadius: 10,
                 backgroundColor: "#ffcd2a",
                 padding: "14px 28px",
@@ -32,7 +32,7 @@ const Header = () => (
             }}
             _hover={{textDecoration:'none'}} 
             variant="contained"
-            href="https://hopin.com/events/champions-of-blockchain-global-transformation">BOOK NOW</Button>
+            href="https://hopin.com/events/champions-of-blockchain-global-transformation">BOOK NOW</Button> 
 
             <div>
             <SocialIcon className='sm-icons' url="https://www.facebook.com/championsofblockchain" network="facebook" bgColor="#3b537a" />

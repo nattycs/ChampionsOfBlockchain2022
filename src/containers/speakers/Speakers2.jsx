@@ -1,20 +1,19 @@
-import React from 'react'
-import './schedule.css'
-import day1 from '../../assets/schedule_1.png'
-import day2 from '../../assets/schedule_2.png'
-import champions from '../../assets/champions-3.png'
-import { SocialIcon } from 'react-social-icons';
 import { Box, Heading, Text } from '@chakra-ui/react';
 import { InfoIcon } from '@chakra-ui/icons';
+import './speakers.css'
+import champions from '../../assets/champions-3.png'
+import { SocialIcon } from 'react-social-icons';
 
-const Schedule = () => {
+export default function Info() {
   return (
-    <div className='cofb__schedule Manrope' id='schedule'>
-      <h1>SCHEDULE</h1>
+    <div className='cofb__speakers-page' id='speakers'>
+    <div className="cofb__speakers Manrope"> 
+    <h1>SPEAKERS</h1>
     <Box textAlign="center" py={10} px={6}>
-      <img src={day1} />
-      <img src={day2} />
-      <br />
+      <img src={champions} />
+      <Heading as="h2" size="xl" fontFamily="Manrope" fontWeight="200" mt={6} mb={2}>
+        COMING SOON
+      </Heading>
       <Text color={'gray.500'} fontFamily="Manrope">
         Follow Our Socials To Keep Updated.
       </Text>
@@ -27,7 +26,6 @@ const Schedule = () => {
     </div>
     </Box>
     </div>
-  )
+    </div>
+  );
 }
-
-export default Schedule

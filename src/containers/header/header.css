@@ -118,6 +118,23 @@
     margin-right: 0.5rem;
 }
 
+
+.hopin-container { 
+    overflow: hidden;
+    padding-top: 75.25%; 
+    position: relative;
+}
+
+.hopin-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
 .gpt3__header-content__input {
     width: 100%;
     margin: 2rem 0 1rem;

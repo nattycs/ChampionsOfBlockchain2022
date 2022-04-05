@@ -12,7 +12,6 @@ const Menu = () => (
     <p><a href="#schedule">SCHEDULE</a></p>
     <p><a href="#tickets">TICKETS</a></p>
     <p><a href="#sponsors">SPONSORS</a></p>
-    <p><a href="#eventpartners">EVENT PARTNERS</a></p>
     <p><a href="#contact">CONTACT</a></p>
     </>
   )
