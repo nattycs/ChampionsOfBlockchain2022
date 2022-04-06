@@ -54,3 +54,11 @@
     font-size: 20px;
     font-weight: 500;
 }
+
+.description {
+    display: block;
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 200;
+    color:gray;
+}

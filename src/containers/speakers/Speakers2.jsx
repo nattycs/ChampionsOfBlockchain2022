@@ -3,29 +3,24 @@ import { InfoIcon } from '@chakra-ui/icons';
 import './speakers.css'
 import champions from '../../assets/champions-3.png'
 import { SocialIcon } from 'react-social-icons';
+import { MediaQuery, Wrapper, DeskTopView, Banner, Retina } from 'react-responsive'
 
 export default function Info() {
   return (
-    <div className='cofb__speakers-page' id='speakers'>
-    <div className="cofb__speakers Manrope"> 
-    <h1>SPEAKERS</h1>
-    <Box textAlign="center" py={10} px={6}>
-      <img src={champions} />
-      <Heading as="h2" size="xl" fontFamily="Manrope" fontWeight="200" mt={6} mb={2}>
-        COMING SOON
-      </Heading>
-      <Text color={'gray.500'} fontFamily="Manrope">
-        Follow Our Socials To Keep Updated.
-      </Text>
-      <br />
-    <div>
-        <SocialIcon className='sm-icons' url="https://www.facebook.com/championsofblockchain" network="facebook" bgColor="#3b537a" />
-        <SocialIcon className='sm-icons' url="https://www.linkedin.com/company/champions-of-blockchain" network="linkedin" bgColor="#3b537a" />
-        <SocialIcon className='sm-icons' url="https://www.instagram.com/championsofblockchain/" network="instagram" bgColor="#3b537a" />
-        <SocialIcon className='sm-icons' url="https://twitter.com/champsofblock" network="twitter" bgColor="#3b537a" />
-    </div>
-    </Box>
-    </div>
-    </div>
+    <Wrapper>
+    <MediaQuery minWidth={1224}>
+      <DeskTopView>This will display in desktop screen</DeskTopView>
+      <MediaQuery minWidth={1824}>
+        <Banner text="this will dsiplay on larger screen size" />
+      </MediaQuery>
+    </MediaQuery>
+    <MediaQuery minResolution="2dppx">
+      {(matches) =>
+        matches
+          ? <Retina>This is a retina view</Retina>
+          : <div>This isn't a retina</div>
+      }
+    </MediaQuery>
+  </Wrapper>
   );
 }
